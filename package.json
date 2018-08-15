@@ -20,6 +20,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
     "normalize.css": "^8.0.0"
   },
   "devDependencies": {
