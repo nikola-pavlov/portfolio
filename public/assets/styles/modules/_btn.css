@@ -4,4 +4,16 @@
 	padding: 10px 15px 10px 15px;
 	border-radius: 5px;
 	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	&--light {
+		background-color: $lightPink;
+		color: $mainBrown;
+		padding: 10px 15px 10px 15px;
+		border-radius: 5px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
 }

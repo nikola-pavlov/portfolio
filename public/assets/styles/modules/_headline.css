@@ -1,0 +1,9 @@
+.headline {
+	
+	font-weight: 700;
+	font-size: 1.8rem;
+
+	@mixin atLarge {
+		font-size: 2.8rem;
+	}
+}

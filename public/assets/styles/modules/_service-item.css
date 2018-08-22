@@ -1,0 +1,21 @@
+.service-item {
+	padding-left: 70px;
+	position: relative;
+	padding-bottom: .1rem;
+
+	&__icon {
+		width: 3.2rem;
+		position: absolute;
+		left: 0;
+		background-color: $mainBrown;
+		padding: .7rem;
+		border-radius: 1.8rem;
+		border: 4px solid $secondaryBrown;
+
+	}
+
+	&__title {
+		font-size: 1.25rem;
+		margin-bottom: .8rem;
+	}
+}
