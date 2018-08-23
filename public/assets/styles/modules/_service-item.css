@@ -1,17 +1,27 @@
 .service-item {
-	padding-left: 70px;
+	padding-left: 62px;
 	position: relative;
 	padding-bottom: .1rem;
 
+	@mixin atMedium {
+		padding-left: 70px;
+	}
+
 	&__icon {
-		width: 3.2rem;
 		position: absolute;
 		left: 0;
 		background-color: $mainBrown;
-		padding: .7rem;
+		width: 2.8rem;
 		border-radius: 1.8rem;
-		border: 4px solid $secondaryBrown;
+		border: 3px solid $secondaryBrown;
+		padding: .5rem;
 
+		@mixin atMedium {
+			width: 3.2rem;
+			border-radius: 1.8rem;
+			border: 4px solid $secondaryBrown;
+			padding: .7rem;
+		}
 	}
 
 	&__title {

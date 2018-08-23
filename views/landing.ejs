@@ -3,54 +3,70 @@
 <h1>Test Message for website</h1>
 
 <div class="header-banner">
-<img class="header-banner__image" src="assets/images/banner.jpg">
-		<div class="header-banner__text-content">
-			<div class="wrapper">	
-				<h1 class="header-banner__title">Nikola Pavlov</h1>
-				<h2 class="header-banner__subtitle">Web developer</h2>
-				<p class="header-banner__description">Some lorem ipsun text goes here. just for testing purposes.. bla bla</p>
-				<p><a href="#" class="btn">Contact me</a></p>
-			</div>
+	<img class="header-banner__image" src="assets/images/banner.jpg">
+	<div class="header-banner__text-content">
+		<div class="wrapper">	
+			<h1 class="header-banner__title">Nikola Pavlov</h1>
+			<h2 class="header-banner__subtitle">Web developer</h2>
+			<p class="header-banner__description">Some lorem ipsun text goes here. just for testing purposes.. bla bla</p>
+			<p><a href="#" class="btn">Contact me</a></p>
 		</div>
+	</div>
 </div>
 
 <div id="digital-services" class="page-section">
 	<div class="wrapper">
-	<h2 class="section-title">Digital Services</h2>
-	<p class="section-description">We are delivering beautiful digital products for you</p>
+		<h2 class="section-title">Digital Services</h2>
+		<p class="section-description">We are delivering beautiful digital products for you</p>
 
-	<div class="row row--gutters-nested">
-		 <div class="row__medium-4">
-		 	<img class="regular-images" src="assets/images/code-coding.jpg">
-		 </div>
-		 <div class="row__medium-8 row--gutters-nested generic-content-container">
-		 	<div class="row__medium-6">
-		 		<div class="service-item">
-			 		<img class="service-item__icon" src="assets/images/icons/flag.svg">
-			 		<h3 class="service-item__title">Web developement</h3>
-			 		<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua </p>
-		 		</div>
-		 		<div class="service-item">
-		 			<img class="service-item__icon" src="assets/images/icons/flag.svg">
-			 		<h3 class="service-item__title">Pixel Perfect Design</h3>
-			 		<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua</p>
-		 		</div>
-		 	</div>
-		 	<div class="row__medium-6">
-		 		<div class="service-item">
-			 		<img class="service-item__icon" src="assets/images/icons/flag.svg">
-			 		<h3 class="service-item__title">Branding</h3>
-			 		<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua</p>
-		 		</div>
-		 		<div class="service-item">
-			 		<img class="service-item__icon" src="assets/images/icons/flag.svg">
-			 		<h3 class="service-item__title">Some Title</h3>
-			 		<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua</p>
-		 		</div>
-		 	</div>		 	
-		 </div>
-	</div>
+		<div class="row row--gutters-nested">
+			<div class="row__medium-4">
+				<div class="flipcard up">
+					<div>
+						<picture>
+							<source srcset="assets/images/cropped-coding.jpg" media="(min-width: 1040px)">
+								<source srcset="assets/images/coding-portrait-short-hi-dpi.jpg" media="(min-width: 848px)">
+								<source srcset="assets/images/coding-portrait-long-hi-dpi.jpg" media="(min-width: 768px)">
+							<img class="flipcard__image" src="assets/images/coding-landscape-hi-dpi.jpg">
+						</picture>
+					</div>
+					<div>
+						<div class="flipcard__content generic-content-container"> 
+							<h1 class="flipcard__title">Understand the situation</h1>
+							<p class="flipcard__description">Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row__medium-8 row--gutters-nested generic-content-container">
+				<div class="row__medium-6">
+					<div class="service-item">
+						<img class="service-item__icon" src="assets/images/icons/flag.svg">
+						<h3 class="service-item__title">Web developement</h3>
+						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua </p>
+					</div>
+					<div class="service-item">
+						<img class="service-item__icon" src="assets/images/icons/flag.svg">
+						<h3 class="service-item__title">Pixel Perfect Design</h3>
+						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua</p>
+					</div>
+				</div>
+				<div class="row__medium-6">
+					<div class="service-item">
+						<img class="service-item__icon" src="assets/images/icons/flag.svg">
+						<h3 class="service-item__title">Branding</h3>
+						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua</p>
+					</div>
+					<div class="service-item">
+						<img class="service-item__icon" src="assets/images/icons/flag.svg">
+						<h3 class="service-item__title">Some Title</h3>
+						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua</p>
+					</div>
+				</div>		 	
+			</div>
+		</div>
 	</div>
 </div>
+
 
 <% include ./partials/footer %>

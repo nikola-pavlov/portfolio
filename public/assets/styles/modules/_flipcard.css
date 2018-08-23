@@ -1,0 +1,109 @@
+.flipcard {
+	position: relative;
+	width: 100%;
+	color: #FFF;
+
+
+
+	@mixin atXLarge {
+		height: 375px;
+		perspective: 700px;
+	}
+
+
+	&__content {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: rgba(0, 0, 0, .5);
+		display: none;
+
+		@mixin atXSmall {
+			display: none;
+			margin: 0;
+		}
+
+		@mixin atSmall {
+			display: block;
+			padding: 0 1.5rem;
+
+		}
+
+		@mixin atXLarge {
+			background-color: rgba(0, 0, 0, 0);
+		}
+	}
+
+	&__title {
+		text-align: center;
+		font-size: 1.2rem;
+
+		@mixin atLarge {
+			font-size: 1.6rem;
+		}
+	}
+
+	&__description {
+		text-align: center;
+		font-size: 2rem;
+
+		@mixin atLarge {
+			font-size: 1.2rem;
+		}
+	}
+
+	&__image {
+
+		border-radius: 15px;
+
+		@mixin atXLarge {
+			border-radius: 15px;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	& > div {
+
+		@mixin atXLarge {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			transition: .6s ease-out transform;
+			backface-visibility: hidden; /* hides the front when rotated */
+			border-radius: 15px;
+
+			&:first-of-type {
+			z-index: 1;
+			background-color: $lightPink;
+			}
+		
+			&:last-of-type {
+			background-color: $mainBrown;
+			}
+		}
+	}
+}
+
+.flipcard.up {
+
+	@mixin atXLarge {
+
+			&>div {
+			&:last-of-type {
+				transform: rotateX(-180deg);
+			}
+		}
+		&:hover {
+			& > div:first-of-type {
+				transform: rotateX(180deg);
+			}
+			& > div:last-of-type {
+				transform: rotateX(0);
+			}
+		}
+
+	}
+
+}
+	
