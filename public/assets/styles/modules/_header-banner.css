@@ -8,44 +8,76 @@
 	}
 
 	&__text-content {
+		text-align: center;
+		width: 100%;
+		color: $mainBrown;
+		height: 175px;
+		transform: translateY(10%);
+
+
+		@mixin atSmall {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
-		left: 0;
-		width: 100%;
-		color: $mainBrown;
+		text-align: left;
+		}
 	}
 
 	&__title {
 		font-weight: 700;
 		font-size: 1.5rem;
+		margin: 15px 0 0 0;
 
 		@mixin atSmall {
-			font-size: 4.6rem;
+			font-size: 2.6rem;
+		}
+
+		@mixin atMedium {
+			font-size: 3.2rem;
 		}
 
 		@mixin atLarge {
-			font-size: 4.6rem;
+			font-size: 3.8rem;
 			margin: 0;
 		}
+
+		@mixin atXLarge {
+			font-size: 4.2rem;
+		}
+
 	}
 
 	&__subtitle {
-		font-weight: 700;
-		font-size: 1.2rem;
+		font-weight: 500;
+		font-size: 1rem;
+		margin: 5px 0;
+		padding: 5px 0;
+
+		@mixin atSmall {
+			font-size: 1.4rem;
+		}
+
+		@mixin atMedium {
+			font-size: 1.8rem;
+		}
 
 		@mixin atLarge {
-			margin: 0 0 30px 0;
-			font-size: 1.6rem;
+			font-size: 2rem;
+		}
+
+		@mixin atXLarge {
+			font-size: 2.2rem;
 		}
 	}
 
 	&__description {
+		display: none;
 		font-size: 1rem;
 
-		@mixin atLarge {
-			margin-bottom: 25px;
+		@mixin atMedium {
+			display: block;
 		}
-	}
+	}	
+
 }
 

@@ -3,7 +3,12 @@
 <h1>Test Message for website</h1>
 
 <div class="header-banner">
-	<img class="header-banner__image" src="assets/images/banner.jpg">
+	<picture>
+		<source srcset="assets/images/nikola--large.jpg" media="(min-width: 1336px)">
+		<source srcset="assets/images/nikola--medium.jpg" media="(min-width: 768px)">
+		<source srcset="assets/images/nikola--small.jpg" media="(min-width: 480px)">
+		<img class="header-banner__image" src="assets/images/nikola-smaller.jpg" alt="porfolio image">
+	</picture>
 	<div class="header-banner__text-content">
 		<div class="wrapper">	
 			<h1 class="header-banner__title">Nikola Pavlov</h1>
@@ -26,43 +31,108 @@
 						<picture>
 							<source srcset="assets/images/cropped-coding.jpg" media="(min-width: 1040px)">
 								<source srcset="assets/images/coding-portrait-short-hi-dpi.jpg" media="(min-width: 848px)">
-								<source srcset="assets/images/coding-portrait-long-hi-dpi.jpg" media="(min-width: 768px)">
-							<img class="flipcard__image" src="assets/images/coding-landscape-hi-dpi.jpg">
-						</picture>
-					</div>
-					<div>
-						<div class="flipcard__content generic-content-container"> 
-							<h1 class="flipcard__title">Understand the situation</h1>
-							<p class="flipcard__description">Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
+									<source srcset="assets/images/coding-portrait-long-hi-dpi.jpg" media="(min-width: 768px)">
+										<img class="flipcard__image" src="assets/images/coding-landscape-hi-dpi.jpg">
+									</picture>
+								</div>
+								<div>
+									<div class="flipcard__content generic-content-container"> 
+										<h1 class="flipcard__title">Understand the situation</h1>
+										<p class="flipcard__description">Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row__medium-8 row--gutters-nested generic-content-container">
+							<div class="row__medium-6">
+								<div class="service-item">
+									<img class="service-item__icon" src="assets/images/icons/flag.svg">
+									<h3 class="service-item__title">Web developement</h3>
+									<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua </p>
+								</div>
+								<div class="service-item">
+									<img class="service-item__icon" src="assets/images/icons/flag.svg">
+									<h3 class="service-item__title">Pixel Perfect Design</h3>
+									<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua</p>
+								</div>
+							</div>
+							<div class="row__medium-6">
+								<div class="service-item">
+									<img class="service-item__icon" src="assets/images/icons/flag.svg">
+									<h3 class="service-item__title">Branding</h3>
+									<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua</p>
+								</div>
+								<div class="service-item">
+									<img class="service-item__icon" src="assets/images/icons/flag.svg">
+									<h3 class="service-item__title">Some Title</h3>
+									<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua</p>
+								</div>
+							</div>		 	
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row__medium-8 row--gutters-nested generic-content-container">
-				<div class="row__medium-6">
-					<div class="service-item">
-						<img class="service-item__icon" src="assets/images/icons/flag.svg">
-						<h3 class="service-item__title">Web developement</h3>
-						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua </p>
-					</div>
-					<div class="service-item">
-						<img class="service-item__icon" src="assets/images/icons/flag.svg">
-						<h3 class="service-item__title">Pixel Perfect Design</h3>
-						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua</p>
+
+
+
+<!-- <div id="mobile-ready" class="page-section">
+	<div class="wrapper">
+		<h1 class="section-title">Mobile Ready</h1>
+		<div class="section-description">Lorem ipsum dolor sit amet, ipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</div>
+		<div class="row row--gutters">
+			<div class="row__medium-6">
+				<div class="mobile-ready">
+					<div class="mobile-ready__phone">
+						<img src="assets/images/phone1.png">
 					</div>
 				</div>
-				<div class="row__medium-6">
-					<div class="service-item">
-						<img class="service-item__icon" src="assets/images/icons/flag.svg">
-						<h3 class="service-item__title">Branding</h3>
-						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua</p>
+			</div>
+			<div class="row__medium-6 generic-content-container">
+				<h2 class="headline--normal">What can mobile optimization do for you?</h2>
+				<p>You don't need much technical knowhow to understand that a mobile optimized website encourages users to stick around. If they can easily navigate and read your site from their phone, they learn more about your company. The more they learn about your company, the more likely they are to buy from you So in order to get people to actually use your website, you obviously need a site that is mobile  optimized.</p>
+				<p> Every year people spend more and more time on their mobile devices and tablets, but many websites still aren't designed to account for different screen sizes and load times. Mobile optimization takes a look at site design, site structure, page speed, and more to make sure you're not inadvertently turning mobile visitors away.</p>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+
+
+
+<div id="mobile-ready" class="page-section">
+	<div class="wrapper">
+		<h1 class="section-title">Mobile Ready</h1>
+		<div class="section-description">Lorem ipsum dolor sit amet, ipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</div>
+		<div class="row row--gutters">
+			<div class="row__medium-6--mobile-ready">
+				<div class="mobile-ready">
+					<div class="mobile-ready__phone">
+						<div class="mobile-ready__phone-content generic-content-container--small">
+							<h2 class="headline--small--brown-left-border">What can mobile optimization do for you?</h2>
+							<p>You don't need much technical knowhow to understand that a mobile optimized website encourages users to stick around. If they can easily navigate and read your site from their phone, they learn more about your company. The more they learn about your company, the more likely they are to buy from you So in order to get people to actually use your website, you obviously need a site that is mobile  optimized.</p>
+							<h2 class="headline--small--brown-left-border">What is Mobile Optimization?</h2>
+							<p> Every year people spend more and more time on their mobile devices and tablets, but many websites still aren't designed to account for different screen sizes and load times. Mobile optimization takes a look at site design, site structure, page speed, and more to make sure you're not inadvertently turning mobile visitors away.</p>
+							<h2 class="headline--small--brown-left-border">Page Speed</h2>
+							<p>Because of hardware and connectivity issues, page speed is even more important for mobile users than desktop users. Beyond optimizing images, you'll want to minify code, leverage browser caching, and reduce redirects. </p>
+						</div>
+						<div class="mobile-ready__phone-image">
+							<picture>
+							<source srcset="assets/images/phone1.png" media="(min-width: 1236px)">
+							<img src="assets/images/phone1-with-content.png" alt="Mobile with content">
+						</picture>
+						</div>
+						
 					</div>
-					<div class="service-item">
-						<img class="service-item__icon" src="assets/images/icons/flag.svg">
-						<h3 class="service-item__title">Some Title</h3>
-						<p>Lo rem ip sum do lor sit amet, conse ctet ur ad i pi scing elit, sed do eius mod tempor inc idid unt ut la bor e et dolore magna aliqua dolore magna aliqua</p>
-					</div>
-				</div>		 	
+				</div>
+			</div>
+			<div class="row__medium-6--mobile-ready generic-content-container">
+				<h2 class="headline--normal--brown-left-border">What can mobile optimization do for you?</h2>
+				<p>You don't need much technical knowhow to understand that a mobile optimized website encourages users to stick around. If they can easily navigate and read your site from their phone, they learn more about your company. The more they learn about your company, the more likely they are to buy from you So in order to get people to actually use your website, you obviously need a site that is mobile  optimized.</p>
+				<h2 class="headline--normal--brown-left-border">What is Mobile Optimization?</h2>
+				<p> Every year people spend more and more time on their mobile devices and tablets, but many websites still aren't designed to account for different screen sizes and load times. Mobile optimization takes a look at site design, site structure, page speed, and more to make sure you're not inadvertently turning mobile visitors away.</p>
+				<h2 class="headline--normal--brown-left-border">Page speed</h2>
+				<p>Because of hardware and connectivity issues, page speed is even more important for mobile users than desktop users. Beyond optimizing images, you'll want to minify code, leverage browser caching, and reduce redirects. </p>
 			</div>
 		</div>
 	</div>

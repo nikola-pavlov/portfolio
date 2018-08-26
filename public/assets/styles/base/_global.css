@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+::selection {
+    color: #FFF; 
+    background-color: #574C45;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	color: #333;

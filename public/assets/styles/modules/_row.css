@@ -57,7 +57,14 @@
 		float: left;
 		width: 100%;
 		}
+	}
 
+	@mixin atMedium {
+		
+		&__medium-6--mobile-ready {
+			float: left;
+			width: 50%;
+		}
 	}
 
 	@mixin atMedium {
@@ -74,6 +81,10 @@
 		&__medium-8 {
 		float: left;
 		width: 66.66%;
+		}
+
+		&__medium-12 {
+			width: 100%;
 		}
 	}
 

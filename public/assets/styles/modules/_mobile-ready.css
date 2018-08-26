@@ -1,0 +1,68 @@
+.mobile-ready {
+	position: relative;
+	height: auto;
+	overflow: hidden;
+
+	@mixin atXLarge {
+		display: block;
+		height: 670px;
+	}
+
+	&__phone {
+		text-align: center;
+	}
+
+	&__phone-image {
+		width: 100%;
+		padding: 0 10px;
+		max-height: 220px;
+
+
+		@mixin atXSmall {
+			padding: 0 60px;
+		}
+
+		@mixin atSmall {
+			padding: 0 60px;
+		}
+
+		@mixin atMedium {
+			max-height: none;
+		}
+
+		@mixin atLarge {
+			padding: 0;
+		}
+	}
+
+	&__phone-content {
+		display: none;
+	}
+
+	@mixin atXLarge {
+		&__phone {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: left;
+	}
+
+		&__phone-content {
+			position: absolute;
+			top: 60px;
+			left: 27px;
+			width: 242px;
+			height: 453px;
+			padding-right: 8px;
+			overflow-y: scroll;
+			display: block;
+		}
+
+		&__phone-image {
+			padding: 0;
+		}
+	}
+
+
+	
+}
