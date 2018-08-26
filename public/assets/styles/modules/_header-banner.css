@@ -11,15 +11,18 @@
 		text-align: center;
 		width: 100%;
 		color: $mainBrown;
-		height: 175px;
-		transform: translateY(10%);
-
 
 		@mixin atSmall {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 		text-align: left;
+		padding-top: 90px;
+		
+		}
+
+		@mixin atMedium {
+			padding-top: 60px;
 		}
 	}
 
