@@ -1,0 +1,72 @@
+.progress {
+
+	@mixin clearfix;
+
+	&__content {
+		padding-bottom: 1.5rem;
+
+		@mixin atMedium {
+			padding-bottom: 3.5rem;
+		}
+	}
+
+	&__header {
+		padding-bottom: 1.7rem;
+	}
+
+	&__title {
+
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+		text-align: center;
+
+		@mixin atLarge {
+			font-size: 1.5rem;
+			padding-bottom: 2rem;
+			text-align: left;
+		}
+	}
+
+	&__description {
+		float: left;
+		font-weight: 600;
+	}
+
+	&__value {
+		float: right;
+		font-weight: 300;
+	}
+}
+
+.progress-bar-outline {
+	position: relative;
+	height: .7rem;
+	background-color: $mainBrown;
+	border: 1px solid $lightPink;
+	clear: both;
+	overflow: hidden;
+	border-radius: 5px;
+
+	@mixin atMedium {
+		height: .9rem;
+	}
+}
+
+.progress-bar-fill {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: .9rem;
+	background-color: $lightPink;
+	width: 83%;
+}
+
+.row__medium-4:nth-child(2) .progress:nth-child(1) .progress__content:nth-child(2) .progress-bar-fill {width: 95%;}
+.row__medium-4:nth-child(2) .progress:nth-child(1) .progress__content:nth-child(3) .progress-bar-fill {width: 85%;}
+.row__medium-4:nth-child(2) .progress:nth-child(1) .progress__content:nth-child(4) .progress-bar-fill {width: 64%;}
+.row__medium-4:nth-child(2) .progress:nth-child(1) .progress__content:nth-child(5) .progress-bar-fill {width: 98%;}
+
+.row__medium-4:nth-child(3) .progress:nth-child(1) .progress__content:nth-child(2) .progress-bar-fill {width: 59%;}
+.row__medium-4:nth-child(3) .progress:nth-child(1) .progress__content:nth-child(3) .progress-bar-fill {width: 70%;}
+.row__medium-4:nth-child(3) .progress:nth-child(1) .progress__content:nth-child(4) .progress-bar-fill {width: 60%;}
+.row__medium-4:nth-child(3) .progress:nth-child(1) .progress__content:nth-child(5) .progress-bar-fill {width: 90%;}

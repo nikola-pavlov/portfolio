@@ -1,0 +1,19 @@
+.content-box--brown {
+
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	padding-top: 1rem;
+
+	@mixin atMedium {
+		border: none;
+	}
+
+	@mixin atLarge {
+		padding: 1.5rem;
+		border: 1px solid #FFF;
+	}
+
+	@mixin atXLarge {
+
+	}
+}

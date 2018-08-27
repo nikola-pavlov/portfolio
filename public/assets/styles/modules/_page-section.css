@@ -1,9 +1,21 @@
 .page-section {
 
 	padding: 1.8rem 0;
-	border: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 
 	@mixin atMedium {
 		padding: 4.5rem 0;
 	}
 }
+
+
+.page-section--brown {
+	padding: 1.8rem 0;
+	background-color: $mainBrown;
+	color: #FFF;
+
+	@mixin atMedium {
+		padding: 4.5rem 0;
+	}
+}
+
