@@ -1,0 +1,12 @@
+.back-to-top {
+	bottom: 25px;
+	right: 25px;
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	background-color: $mainBrown;
+	border: 3px solid $lightPink;
+	border-radius: 30px;
+	padding: 15px;
+	z-index: 2;
+}
