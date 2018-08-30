@@ -13,6 +13,7 @@ app.get("/", function(req, res){
 // app.listen(process.env.PORT, process.env.IP);
 
 
-app.listen(3000, "127.0.0.1", function(){
+app.listen(80, "192.168.0.20", function(){
 	console.log("Server started!");
 });
+

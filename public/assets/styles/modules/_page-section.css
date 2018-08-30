@@ -6,16 +6,37 @@
 	@mixin atMedium {
 		padding: 4.5rem 0;
 	}
-}
 
+	&--brown {
+		background-color: $mainBrown;
+		color: #FFF;
 
-.page-section--brown {
-	padding: 1.8rem 0;
-	background-color: $mainBrown;
-	color: #FFF;
-
-	@mixin atMedium {
-		padding: 4.5rem 0;
+		::selection {
+    	color: $mainBrown;
+    	background-color: $lightPink;
 	}
+	}
+
+	&--mobile-ready {
+		background: linear-gradient(to bottom, #f1e8e3 0%,#ffffff 100%);
+
+	}
+
+	&--quotes {
+		::selection {
+    	color: $mainBrown;
+    	background-color: $lightPink;
+	}
+		background-attachment: fixed;
+		position: relative;
+		color: #FFF;
+		background: url("/assets/images/vodno-skopje.jpg") bottom center no-repeat;
+		background-size: cover;
+	}
+
+
 }
+
+
+
 

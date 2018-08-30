@@ -1,5 +1,5 @@
 .section-title {
-
+	position: relative;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: 300;
@@ -10,6 +10,23 @@
 		padding-bottom: 10px;
 		text-align: left;
 
+	}
+
+	&__icon {
+		position: relative;
+		margin-right: 10px;
+		width: 30px;
+		top: 5px;
+
+		@mixin atSmall {
+			
+		}
+
+		@mixin atMedium {
+			margin-right: 20px;
+			width: 50px;
+			top: 5px;
+		}
 	}
 }
 

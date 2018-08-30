@@ -47,15 +47,19 @@
 		text-align: left;
 	}
 
+
+
 		&__phone-content {
 			position: absolute;
 			top: 60px;
-			left: 27px;
-			width: 242px;
+			left: 16px;
+			padding-left: 12px;
+			width: 254px;
 			height: 453px;
 			padding-right: 8px;
 			overflow-y: scroll;
 			display: block;
+			background: #FFF;
 		}
 
 		&__phone-image {

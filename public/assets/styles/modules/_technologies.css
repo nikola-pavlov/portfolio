@@ -1,0 +1,122 @@
+
+
+	.technologies__content {
+
+		padding: 1rem;
+		margin-bottom: .6rem;
+		position: relative;
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+
+		@mixin atXSmall {
+
+		}
+
+		@mixin atSmall {
+			min-height: 200px;
+			margin-bottom: .6rem;
+			border-radius: 1rem;
+			border: 1px solid #ccc;
+
+		}
+
+		@mixin atMedium {
+			min-height: 250px;
+			margin-bottom: .9rem;
+		}
+
+		@mixin atLarge {
+			min-height: unset;
+			margin-bottom: 0;
+
+			&:hover .technologies__title {
+			/*background-color: yellow;*/
+			display: block;
+			opacity: 1;
+			transform: scale(1);
+			height: 20px;
+		}
+
+		}
+
+		@mixin atXLarge {
+
+		}
+	}
+
+
+
+
+
+
+	.technologies__title {
+
+		position: relative;
+		font-weight: 700;
+		text-align: center;
+		opacity: 1;
+		padding-bottom: 1rem;
+
+
+		@mixin atXSmall {
+
+		}
+
+		@mixin atSmall {
+			
+		}
+
+		@mixin atMedium {
+			
+		}
+
+		@mixin atLarge {
+			opacity: 0;
+			height: 1px;
+			transform: scale(0.5);
+			transition: all .3s ease-out;
+			padding-bottom: 0;
+		}
+
+		@mixin atXLarge {
+			
+		}
+	}
+
+
+
+	.technologies__logo {
+
+		position: relative;
+		width: 30%;
+		margin: 0 auto;
+		min-width: 75px;
+		max-width: 100px;
+
+		@mixin atXSmall {
+		}
+
+		@mixin atSmall {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 25%;
+		}
+
+		@mixin atMedium {
+			
+		}
+
+		@mixin atLarge {
+			position: relative;
+			top: 50%;
+			left: unset;
+			transform: translateY(-50%);
+			min-width: 50px;
+		}
+
+		@mixin atXLarge {
+			
+		}
+	}
