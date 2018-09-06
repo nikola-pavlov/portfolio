@@ -23,6 +23,10 @@
 
 	}
 
+	&--gray {
+		background-color: #EEE;
+	}
+
 	&--quotes {
 		::selection {
     	color: $mainBrown;

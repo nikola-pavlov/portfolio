@@ -1,0 +1,67 @@
+.recent-work {
+	/*border: 1px solid #ccc;*/
+	background-color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 12px 0px #CECECE;
+	position: relative;
+	max-width: 480px;
+	margin: 0 auto 1rem auto;
+
+	@mixin clearfix;
+
+	&__image {
+		position: relative;
+		background-color: #CCC;
+	}
+
+	&__content {
+		position: relative;
+		padding: 0 1rem;
+		margin-bottom: 70px;
+	}
+
+	&__footer {
+		position: absolute;
+		padding: .7rem 0 1.8rem 0;
+		border-top: 1px solid #EEE;
+		text-transform: uppercase;
+		font-weight: 800;
+		color: #999;
+		bottom: -10px;
+		left: 20px;
+		width: calc(100% - 40px);
+	}
+
+	&__icon {
+		position: relative;
+		width: 30px;
+		top: 4px;
+		padding-right: 10px;
+	}
+
+	&__banner {
+		position: absolute;
+		padding: 5px 10px;
+		top: 10px;
+		right: 10px;
+		background-color: $lightPink;
+	}
+
+	&__footer__date {
+		position: relative;
+		float: left;
+	}
+
+	&__footer__link {
+		position: relative;
+		float: right;
+		transition: all .3s ease-out;
+		cursor: pointer;
+	}
+
+	&__footer__link:hover {
+		color: $mainBrown;
+		font-size: 1.1rem;
+	}
+}
