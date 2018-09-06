@@ -1,0 +1,16 @@
+.info-message {
+	font-size: 1.25rem;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-weight: 800;
+
+	&--success {
+		&__icon {
+			position: relative;
+			top: 5px;
+			width: 35px;
+			padding-right: 10px;
+		}
+	}
+}

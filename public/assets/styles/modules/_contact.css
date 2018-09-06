@@ -1,0 +1,137 @@
+.contact {
+@mixin clearfix;
+
+	&__title {
+		
+			font-weight: 300;
+			text-align: center;
+			font-size: 1.5rem;
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+
+		@mixin atLarge {
+			margin: 0;
+			margin-top: 0;
+			margin-bottom: 2.5rem;
+			text-align: left;
+			font-size: 1.8rem;
+
+		}
+	}
+
+	& .contact-name {
+		
+		@mixin atLarge {
+			width: 50%;
+			float: left;
+			padding-right: 10px;
+		}
+
+		& h2 {
+			text-align: center;
+			@mixin atLarge {
+				text-align: left;
+			}
+		}
+
+	}
+
+	& .contact-email {
+
+		margin-top: 1rem;
+
+		@mixin atLarge {
+			width: 50%;
+			float: left;
+			padding-left: 10px;
+			margin-top: 0;
+		}
+
+		& h2 {
+			text-align: center;
+			@mixin atLarge {
+				text-align: left;
+			}
+		}
+	}
+
+	& .contact-message {
+		width: 100%;
+		float: left;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		& h2 {
+			text-align: center;
+			@mixin atLarge {
+				text-align: left;
+			}
+		}
+	}
+
+	& div input {
+		width: 100%;
+		padding: 10px;
+		border: 0;
+		background-color: $lightPink;
+		border-radius: 10px;
+	}
+
+	& div input:focus {
+		background-color: #FFF;
+		transition: all .3s ease-out;
+		border: 1px solid $mainBrown;
+	}
+
+	& div textarea {
+		width: 100%;
+		padding: 10px;
+		resize: vertical;
+		background-color: $lightPink;
+		border: 0;
+		border-radius: 10px;
+		line-height: 1.6;
+	}
+
+	& div textarea:focus {
+		background-color: #FFF;
+		transition: all .3s ease-out;
+		border: 1px solid $mainBrown;
+	}
+
+	& h2 {
+		margin: 0;
+		padding: 0 0 8px 0;
+		font-size: 1.175rem;
+	}
+
+&__social-icons {
+			margin-top: 4.5rem;
+
+			& img {
+				position: relative;
+				width: 45px;
+				padding-right: 1rem;
+				left: 50%;
+				transform: translateX(-150%);
+			}
+		}
+
+		p {
+			text-align: center;
+
+			@mixin atMedium {
+				text-align: left;
+			}
+		}
+
+		&__item {
+			font-size: .9rem;
+			margin-bottom: 2rem;
+			@mixin atLarge {
+				font-size: 1rem;
+				text-align: left;
+			}
+		}
+
+}
+

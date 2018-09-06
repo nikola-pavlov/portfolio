@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+html {
+	/* Used to set footer on bottom */
+	height: 100%;
+}
+
 ::selection {
     color: #FFF; 
     background-color: #574C45;
@@ -10,6 +15,11 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	color: #333;
+
+	/* Used to set footer on bottom */
+	display: flex;
+  	flex-direction: column;
+  	height: 100vh;
 }
 
 img {
@@ -19,4 +29,21 @@ img {
 
 a {
 	color: #574C45;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

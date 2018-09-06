@@ -1,0 +1,67 @@
+.messages {
+
+	@mixin clearfix;
+	background-color: $lightPink;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 2.5rem;
+	border-radius: 10px;
+
+	&__name {
+		font-size: 1rem;
+		float: left;
+		padding-right: 2.5rem;
+		font-weight: 500;
+
+	}
+
+	&__email {
+		font-size: 1rem;
+		float: left;
+		padding-right: 2.5rem;
+	}
+
+	&__date {
+		font-size: 1rem;
+		float: left;
+		padding-right: 2.5rem;
+	}
+
+	&__time {
+		font-size: 1rem;
+		float: left;
+		padding-right: 2.5rem;
+	}
+
+	&__message {
+		font-size: 1rem;
+		display: block;
+		float: none;
+		clear: both;
+		background-color: #FFF;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	&__icon {
+		position: relative;
+		float: right;
+		right: -35px;
+		top: -30px;
+		background-color: white;
+		border: 3px solid $mainBrown;
+		border-radius: 50px;
+		padding: 5px 10px;
+		font-size: 1.5rem;
+		font-weight: 900;
+		transform: scaleX(1.1);
+		transform-origin: 100% 0;
+		cursor: pointer;
+		transition: all .3s ease-out;
+
+		&:hover {
+			color: white;
+			background-color: $mainBrown;
+		}
+	}
+
+}

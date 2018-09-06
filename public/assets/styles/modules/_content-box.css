@@ -1,19 +1,77 @@
-.content-box--brown {
+.content-box {
 
-	border-top: 1px solid #FFF;
-	border-bottom: 1px solid #FFF;
-	padding-top: 1rem;
+	@mixin clearfix;
+	background-color: #FFF;
+	border-top: 1px solid $mainBrown;
+	border-bottom: 1px solid $mainBrown;
+	border-radius: 0;
 
 	@mixin atMedium {
 		border: none;
+		padding: 1.5rem;
 	}
 
 	@mixin atLarge {
-		padding: 1.5rem;
-		border: 1px solid #FFF;
-	}
+				padding: 1.5rem;
+	}	
 
-	@mixin atXLarge {
+		&--brown {
+			border-top: 1px solid #FFF;
+			border-bottom: 1px solid #FFF;
+			padding-top: 1rem;
+			@mixin atLarge {
+				border: 1px solid #FFF;
+				padding: 1.5rem;
+			}
+		}
 
+		&--contact {
+				background-color: #fff;
+
+
+
+			@mixin atLarge {
+				border-radius: 10px;
+				padding: 1.5rem;
+				border-top: 1px solid #FFF;
+				border-bottom: 1px solid #FFF;
+				padding-top: 1rem;
+				border: 1px solid #FFF;
+				
+			}
+
+			
+		}
+
+
+	&--rounded {
+		border-radius: 0;
+			@mixin atMedium {
+			border-radius: 10px;
+
+			}
+		}
+
+
+}
+
+.content-box__icon {
+	position: relative;
+	width: 1.75rem;
+	padding-right: 5px;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 5px;
+	
+
+	@mixin atLarge {
+		width: 2.75rem;
+		top: 12px;
+		padding-right: 10px;
+		display: inline-block;
+		left: 0;
+		transform: translateX(0);
+		margin-bottom: 0;
 	}
 }

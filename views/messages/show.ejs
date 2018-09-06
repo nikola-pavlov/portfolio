@@ -1,0 +1,24 @@
+ <% include ../partials/header %>
+ <div id="messages" class="page-section page-section--bigger-t-padding">
+	<div class="wrapper">
+		<h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/write.svg">My messages</h2>
+		<p class="section-description">Message View</p>
+		<div class="row">
+			<div class="row__medium-12">
+				<% messages.forEach(function(message){ %>
+				<div class="messages">
+					<form action="/messages/<%= message._id %>?_method=DELETE" method="POST">
+					<div class="messages__icon"><button>X</button></div>
+					</form>
+				<p class="messages__name"><strong>From:</strong> <%= message.name %></p>
+				<p class="messages__email"><strong>Email:</strong> <%= message.email %></p>
+				<p class="messages__date"><strong>Date:</strong> <%= message.sendAt.getDate() + "." +  message.sendAt.getMonth() + "." +message.sendAt.getFullYear() %></p>
+				<p class="messages__time"><strong>Time:</strong> <%= message.sendAt.getHours() + ":" + message.sendAt.getMinutes() %></p>
+				<p class="messages__message"><%= message.message %></p>
+				</div>
+				<% }); %>
+			</div>
+		</div>
+	</div>
+</div>
+ <% include ../partials/footer %>

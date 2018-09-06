@@ -2,6 +2,7 @@
 
 	padding: 1.8rem 0;
 	border-bottom: 1px solid #eee;
+	flex: 1 0 auto;
 
 	@mixin atMedium {
 		padding: 4.5rem 0;
@@ -32,6 +33,21 @@
 		color: #FFF;
 		background: url("/assets/images/vodno-skopje.jpg") bottom center no-repeat;
 		background-size: cover;
+	}
+
+	&--bigger-t-padding {
+		padding-top: 150px;
+	}
+
+	&--contact {
+		
+		
+		@mixin atLarge {
+			background-attachment: fixed;
+			position: relative;
+			background: url("/assets/images/kozjak.jpg") bottom center no-repeat;
+			background-size: cover;
+		}
 	}
 
 

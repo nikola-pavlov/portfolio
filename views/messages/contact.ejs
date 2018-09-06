@@ -1,0 +1,52 @@
+ <% include ../partials/header %>
+
+<div id="contact" class="page-section page-section--contact page-section--bigger-t-padding">
+	<div class="wrapper">
+		<h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/write.svg">Contact me</h2>
+		<p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<div class="row row--gutters">
+			<div class="row__medium-4">
+				<div class="content-box content-box--rounded">
+					<div class="contact">
+						<h1 class="contact__title">Info</h1>
+						<% if(infoMessage && infoMessage.length > 0) { %>
+						<p class="info-message"><img class="info-message--success__icon" src="assets/images/icons/checkmark-for-verification.svg"><%= infoMessage %></p>	
+						<% } %>
+					<p class="contact__item"><img class="content-box__icon" src="assets/images/icons/contact-icons/envelope.svg"><a href="#">nikola8989@hotmail.com</a></p>
+					<p class="contact__item"><img class="content-box__icon" src="assets/images/icons/contact-icons/social-buttons-skype.svg"><a href="#">nikola2189</a></p>
+					<p class="contact__item"><img class="content-box__icon" src="assets/images/icons/contact-icons/smartphone-call.svg"> +389 70 123456</p>
+					<div class="contact__social-icons">
+						<img src="assets/images/icons/contact-icons/facebook-logo-button.svg">
+						<img src="assets/images/icons/contact-icons/linkedin-button.svg">
+						<img src="assets/images/icons/contact-icons/github-logo.svg">
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row__medium-8">
+				<form action="/contact" method="POST">
+				<div class="content-box--contact content-box--rounded">
+					<div class="contact">
+						<h1 class="contact__title">Write me a message</h1>
+					<div class="contact-name">
+						<h2>Your Name</h2>
+						<input type="text" placeholder="John Smith" name="name" id="contact-name">
+					</div>
+					<div class="contact-email">
+						<h2>Your Email</h2>
+						<input type="email" placeholder="yourmail@example.com" name="email" id="contact-email">
+					</div>
+					<div class="contact-message">
+						<h2>Message</h2>
+						<textarea rows="5" placeholder="your message" name="message" id="contact-message"></textarea>
+					</div>
+					<button class="btn--float-right">Send Message</button>
+					</div>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<% include ../partials/footer %>

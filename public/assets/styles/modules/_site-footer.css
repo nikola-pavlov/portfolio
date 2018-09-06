@@ -3,6 +3,8 @@
 	color: #FFF;
 	padding: .5rem 0;
 	text-align: center;
+	width: 100%;
+	flex-shrink: 0;
 
 	&__text {
 		display: block;
