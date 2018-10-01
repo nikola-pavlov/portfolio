@@ -1138,22 +1138,30 @@ button:focus {
 	}
 
 .section-title__icon {
-		position: relative;
-		margin-right: 10px;
-		width: 30px;
-		top: 5px;
-	}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .6rem;
+  }
 
 @media (min-width: 480px) {
-	}
-
-@media (min-width: 768px) {
 
 .section-title__icon {
-			margin-right: 20px;
-			width: 50px;
-			top: 5px
+      position: relative;
+      top: 8px;
+      margin-right: .5rem;
+      margin-left: 0;
+      margin-bottom: 0;
+      display: inline-block
+  }
 	}
+
+@media (min-width: 992px) {
+
+.section-title__icon {
+    	-webkit-transform: scale(.8,.8);
+    	        transform: scale(.8,.8)
+  }
 	}
 
 .section-description {
@@ -1867,9 +1875,26 @@ button:focus {
 	background-color: #574C45;
 	border: 3px solid #ede1db;
 	border-radius: 30px;
-	padding: 15px;
 	z-index: 2;
 }
+
+.back-to-top__arrow {
+		position: absolute;
+		color: #FFF;
+		font-size: 40px;
+		right: 18px;
+		-webkit-transform: rotate(-90deg) scale(1);
+		        transform: rotate(-90deg) scale(1);	
+		transition: all .3s ease-out;
+		-webkit-transform-origin: 50% 50%;
+		        transform-origin: 50% 50%;
+	}
+
+.back-to-top:hover .back-to-top__arrow {
+		-webkit-transform: rotate(270deg) scale(1.2);
+		        transform: rotate(270deg) scale(1.2);
+
+	}
 
 .technologies__content {
 
@@ -2387,4 +2412,280 @@ button:focus {
 .recent-work__footer__link:hover {
 		color: #574C45;
 		font-size: 1.1rem;
+	}
+
+/* do not edit modules/_sprite directly as it is generated automaticaly by gulp
+Istead edit gulp/templates/sprite */
+
+.icon {
+			background-image: url("/assets/images/sprites/sprite-d02df6af.svg");
+		}
+
+.icon--calendar-with-spring-binder-and-date-blocks {
+		width: 25px;
+		height: 25px;
+		background-position: 48.470588235294116% 90.64748201438849%;
+	}
+
+.icon--checkmark-for-verification {
+		width: 64px;
+		height: 64px;
+		background-position: 66.32124352331606% 83.06878306878306%;
+	}
+
+.icon--contact-icons--envelope {
+		width: 42px;
+		height: 42px;
+		background-position: 15.686274509803921% 94.5%;
+	}
+
+.icon--contact-icons--facebook-logo-button {
+		width: 25px;
+		height: 25px;
+		background-position: 36.705882352941174% 90.64748201438849%;
+	}
+
+.icon--contact-icons--github-logo {
+		width: 25px;
+		height: 25px;
+		background-position: 30.823529411764707% 90.64748201438849%;
+	}
+
+.icon--contact-icons--linkedin-button {
+		width: 25px;
+		height: 25px;
+		background-position: 24.941176470588236% 90.64748201438849%;
+	}
+
+.icon--contact-icons--smartphone-call {
+		width: 42px;
+		height: 42px;
+		background-position: 61.27450980392157% 49.5%;
+	}
+
+.icon--contact-icons--social-buttons-skype {
+		width: 42px;
+		height: 42px;
+		background-position: 78.92156862745098% 64%;
+	}
+
+.icon--design-tools {
+		width: 64px;
+		height: 64px;
+		background-position: 66.32124352331606% 66.13756613756614%;
+	}
+
+.icon--flag {
+		width: 42px;
+		height: 42px;
+		background-position: 94.6078431372549% 80%;
+	}
+
+.icon--magnifying-glass {
+		width: 25px;
+		height: 25px;
+		background-position: 68.70588235294117% 47.48201438848921%;
+	}
+
+.icon--nikola-logo {
+		width: 72px;
+		height: 70px;
+		background-position: 66.13756613756614% 0;
+	}
+
+.icon--paint-brush {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 50.79365079365079%;
+	}
+
+.icon--pc-settings {
+		width: 64px;
+		height: 64px;
+		background-position: 0 83.06878306878306%;
+	}
+
+.icon--responsive-design-symbol {
+		width: 64px;
+		height: 64px;
+		background-position: 16.580310880829014% 83.06878306878306%;
+	}
+
+.icon--skills {
+		width: 64px;
+		height: 64px;
+		background-position: 33.16062176165803% 83.06878306878306%;
+	}
+
+.icon--tech-logos--bootstrap-4 {
+		width: 250px;
+		height: 250px;
+		background-position: 0 0;
+	}
+
+.icon--tech-logos--css-3 {
+		width: 64px;
+		height: 64px;
+		background-position: 64.76683937823834% 18.51851851851852%;
+	}
+
+.icon--tech-logos--express-109 {
+		width: 64px;
+		height: 64px;
+		background-position: 82.90155440414507% 83.06878306878306%;
+	}
+
+.icon--tech-logos--git {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 0;
+	}
+
+.icon--tech-logos--gulp {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 16.93121693121693%;
+	}
+
+.icon--tech-logos--html5 {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 33.86243386243386%;
+	}
+
+.icon--tech-logos--javascript {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 50.79365079365079%;
+	}
+
+.icon--tech-logos--jquery-1 {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 67.72486772486772%;
+	}
+
+.icon--tech-logos--mongodb {
+		width: 64px;
+		height: 64px;
+		background-position: 0 100%;
+	}
+
+.icon--tech-logos--nodejs-icon {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 16.93121693121693%;
+	}
+
+.icon--tech-logos--npm {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 0;
+	}
+
+.icon--tech-logos--postcss {
+		width: 64px;
+		height: 64px;
+		background-position: 49.740932642487046% 66.13756613756614%;
+	}
+
+.icon--tech-logos--webpack {
+		width: 64px;
+		height: 64px;
+		background-position: 33.16062176165803% 66.13756613756614%;
+	}
+
+.icon--tick-inside-circle {
+		width: 64px;
+		height: 64px;
+		background-position: 16.580310880829014% 66.13756613756614%;
+	}
+
+.icon--tools {
+		width: 64px;
+		height: 64px;
+		background-position: 0 66.13756613756614%;
+	}
+
+.icon--trash-can {
+		width: 64px;
+		height: 64px;
+		background-position: 64.76683937823834% 35.44973544973545%;
+	}
+
+.icon--two-quotes {
+		width: 64px;
+		height: 64px;
+		background-position: 49.740932642487046% 83.06878306878306%;
+	}
+
+.icon--two-quotes-small {
+		width: 25px;
+		height: 25px;
+		background-position: 42.588235294117645% 90.64748201438849%;
+	}
+
+.icon--write {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 33.86243386243386%;
+	}
+
+.icons {
+
+	background-repeat: no-repeat;
+}
+
+.icons--small {
+		position: relative;
+		top: 5px;
+		margin-right: 5px;
+		-webkit-transform-origin: 0 50%;
+		        transform-origin: 0 50%;
+		display: inline-block;
+	}
+
+.icons--medium {
+		left: -5px;
+		display: inline-block;
+		position: relative;
+		margin-right: 10px;
+		top: 15px;
+	}
+
+.icons--large {
+		left: -5px;
+		display: inline-block;
+		position: relative;
+		margin-right: 15px;
+		top: 15px;
+	}
+
+.icons--logo {
+		left: -5px;
+		display: inline-block;
+		position: relative;
+		top: 30px;
+		margin-right: 6px;
+	}
+
+.icons--brown-b {
+		background-color: #574C45;
+	}
+
+.icons--circle {
+		border-radius: 50%;
+		border: 1px solid #9b8d84;
+	}
+
+.icons--padding {
+		padding: 24px;
+	}
+
+.logo__title {
+		color: #FFF;
+		font-size: 1.1rem;
+		font-weight: 300;
+		position: relative;
+		top: -30px;
 	}

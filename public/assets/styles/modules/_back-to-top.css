@@ -7,6 +7,20 @@
 	background-color: $mainBrown;
 	border: 3px solid $lightPink;
 	border-radius: 30px;
-	padding: 15px;
 	z-index: 2;
+
+	&__arrow {
+		position: absolute;
+		color: #FFF;
+		font-size: 40px;
+		right: 18px;
+		transform: rotate(-90deg) scale(1);	
+		transition: all .3s ease-out;
+		transform-origin: 50% 50%;
+	}
+
+	&:hover &__arrow {
+		transform: rotate(270deg) scale(1.2);
+
+	}
 }

@@ -1,0 +1,251 @@
+/* do not edit modules/_sprite directly as it is generated automaticaly by gulp
+Istead edit gulp/templates/sprite */
+
+
+		.icon {
+			background-image: url("/assets/images/sprites/sprite-d02df6af.svg");
+		}
+
+	.icon--calendar-with-spring-binder-and-date-blocks {
+		width: 25px;
+		height: 25px;
+		background-position: 48.470588235294116% 90.64748201438849%;
+	}
+
+
+	.icon--checkmark-for-verification {
+		width: 64px;
+		height: 64px;
+		background-position: 66.32124352331606% 83.06878306878306%;
+	}
+
+
+	.icon--contact-icons--envelope {
+		width: 42px;
+		height: 42px;
+		background-position: 15.686274509803921% 94.5%;
+	}
+
+
+	.icon--contact-icons--facebook-logo-button {
+		width: 25px;
+		height: 25px;
+		background-position: 36.705882352941174% 90.64748201438849%;
+	}
+
+
+	.icon--contact-icons--github-logo {
+		width: 25px;
+		height: 25px;
+		background-position: 30.823529411764707% 90.64748201438849%;
+	}
+
+
+	.icon--contact-icons--linkedin-button {
+		width: 25px;
+		height: 25px;
+		background-position: 24.941176470588236% 90.64748201438849%;
+	}
+
+
+	.icon--contact-icons--smartphone-call {
+		width: 42px;
+		height: 42px;
+		background-position: 61.27450980392157% 49.5%;
+	}
+
+
+	.icon--contact-icons--social-buttons-skype {
+		width: 42px;
+		height: 42px;
+		background-position: 78.92156862745098% 64%;
+	}
+
+
+	.icon--design-tools {
+		width: 64px;
+		height: 64px;
+		background-position: 66.32124352331606% 66.13756613756614%;
+	}
+
+
+	.icon--flag {
+		width: 42px;
+		height: 42px;
+		background-position: 94.6078431372549% 80%;
+	}
+
+
+	.icon--magnifying-glass {
+		width: 25px;
+		height: 25px;
+		background-position: 68.70588235294117% 47.48201438848921%;
+	}
+
+
+	.icon--nikola-logo {
+		width: 72px;
+		height: 70px;
+		background-position: 66.13756613756614% 0;
+	}
+
+
+	.icon--paint-brush {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 50.79365079365079%;
+	}
+
+
+	.icon--pc-settings {
+		width: 64px;
+		height: 64px;
+		background-position: 0 83.06878306878306%;
+	}
+
+
+	.icon--responsive-design-symbol {
+		width: 64px;
+		height: 64px;
+		background-position: 16.580310880829014% 83.06878306878306%;
+	}
+
+
+	.icon--skills {
+		width: 64px;
+		height: 64px;
+		background-position: 33.16062176165803% 83.06878306878306%;
+	}
+
+
+	.icon--tech-logos--bootstrap-4 {
+		width: 250px;
+		height: 250px;
+		background-position: 0 0;
+	}
+
+
+	.icon--tech-logos--css-3 {
+		width: 64px;
+		height: 64px;
+		background-position: 64.76683937823834% 18.51851851851852%;
+	}
+
+
+	.icon--tech-logos--express-109 {
+		width: 64px;
+		height: 64px;
+		background-position: 82.90155440414507% 83.06878306878306%;
+	}
+
+
+	.icon--tech-logos--git {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 0;
+	}
+
+
+	.icon--tech-logos--gulp {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 16.93121693121693%;
+	}
+
+
+	.icon--tech-logos--html5 {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 33.86243386243386%;
+	}
+
+
+	.icon--tech-logos--javascript {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 50.79365079365079%;
+	}
+
+
+	.icon--tech-logos--jquery-1 {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 67.72486772486772%;
+	}
+
+
+	.icon--tech-logos--mongodb {
+		width: 64px;
+		height: 64px;
+		background-position: 0 100%;
+	}
+
+
+	.icon--tech-logos--nodejs-icon {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 16.93121693121693%;
+	}
+
+
+	.icon--tech-logos--npm {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 0;
+	}
+
+
+	.icon--tech-logos--postcss {
+		width: 64px;
+		height: 64px;
+		background-position: 49.740932642487046% 66.13756613756614%;
+	}
+
+
+	.icon--tech-logos--webpack {
+		width: 64px;
+		height: 64px;
+		background-position: 33.16062176165803% 66.13756613756614%;
+	}
+
+
+	.icon--tick-inside-circle {
+		width: 64px;
+		height: 64px;
+		background-position: 16.580310880829014% 66.13756613756614%;
+	}
+
+
+	.icon--tools {
+		width: 64px;
+		height: 64px;
+		background-position: 0 66.13756613756614%;
+	}
+
+
+	.icon--trash-can {
+		width: 64px;
+		height: 64px;
+		background-position: 64.76683937823834% 35.44973544973545%;
+	}
+
+
+	.icon--two-quotes {
+		width: 64px;
+		height: 64px;
+		background-position: 49.740932642487046% 83.06878306878306%;
+	}
+
+
+	.icon--two-quotes-small {
+		width: 25px;
+		height: 25px;
+		background-position: 42.588235294117645% 90.64748201438849%;
+	}
+
+
+	.icon--write {
+		width: 64px;
+		height: 64px;
+		background-position: 83.41968911917098% 33.86243386243386%;
+	}

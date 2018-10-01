@@ -13,21 +13,23 @@
 	}
 
 	&__icon {
-		position: relative;
-		margin-right: 10px;
-		width: 30px;
-		top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .6rem;
 
-		@mixin atSmall {
-			
-		}
-
-		@mixin atMedium {
-			margin-right: 20px;
-			width: 50px;
-			top: 5px;
-		}
-	}
+    @mixin atSmall {
+      position: relative;
+      top: 8px;
+      margin-right: .5rem;
+      margin-left: 0;
+      margin-bottom: 0;
+      display: inline-block;
+    }
+    @mixin atLarge {
+    	transform: scale(.8,.8);
+    }
+  }
 }
 
 .section-description {
