@@ -23,6 +23,7 @@
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "jquery": "^3.3.1",
+    "jquery-smooth-scroll": "^2.2.0",
     "lodash": "^4.17.10",
     "method-override": "^3.0.0",
     "mongoose": "^5.2.12",
