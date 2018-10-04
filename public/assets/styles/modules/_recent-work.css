@@ -2,11 +2,14 @@
 	/*border: 1px solid #ccc;*/
 	background-color: #FFF;
 	padding: 10px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 12px 0px #CECECE;
 	position: relative;
-	max-width: 480px;
+	max-width: 100%;
 	margin: 0 auto 1rem auto;
+
+	@mixin atMedium {
+		box-shadow: 1px 1px 12px 0px #CECECE;
+		border-radius: 5px;
+	}
 
 	@mixin clearfix;
 

@@ -526,8 +526,22 @@ button:focus {
 	max-width: 1236px;
 	margin-left: auto;
 	margin-right: auto;
-	/*background: yellow;*/
 }
+
+/*background: yellow;*/
+
+.wrapper--no-padding-until-medium {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+@media (min-width: 768px) {
+
+.wrapper--no-padding-until-medium {
+			padding-left: 18px;
+			padding-right: 18px
+	}
+	}
 
 .btn {
 	background-color: #574C45;
@@ -2480,12 +2494,18 @@ button:focus {
 	/*border: 1px solid #ccc;*/
 	background-color: #FFF;
 	padding: 10px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 12px 0px #CECECE;
 	position: relative;
-	max-width: 480px;
+	max-width: 100%;
 	margin: 0 auto 1rem auto;
 }
+
+@media (min-width: 768px) {
+
+.recent-work {
+		box-shadow: 1px 1px 12px 0px #CECECE;
+		border-radius: 5px
+}
+	}
 
 .recent-work::after {
 		content:"";
@@ -2823,3 +2843,16 @@ Istead edit gulp/templates/sprite */
 		position: relative;
 		top: -30px;
 	}
+
+.reveal-item {
+  opacity: 0;
+  transition: all 1.2s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }

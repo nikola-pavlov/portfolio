@@ -6,4 +6,14 @@
 	margin-left: auto;
 	margin-right: auto;
 	/*background: yellow;*/
+
+	&--no-padding-until-medium {
+		padding-right: 0;
+		padding-left: 0;
+
+		@mixin atMedium {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	}
 }
