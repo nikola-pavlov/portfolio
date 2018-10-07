@@ -3,249 +3,158 @@ Istead edit gulp/templates/sprite */
 
 
 		.icon {
-			background-image: url("/assets/images/sprites/sprite-d02df6af.svg");
+			background-image: url("/assets/images/sprites/sprite-06d5a331.svg");
 		}
 
 	.icon--calendar-with-spring-binder-and-date-blocks {
 		width: 25px;
 		height: 25px;
-		background-position: 48.470588235294116% 90.64748201438849%;
+		background-position: 100% 23.25581395348837%;
 	}
 
 
 	.icon--checkmark-for-verification {
 		width: 64px;
 		height: 64px;
-		background-position: 66.32124352331606% 83.06878306878306%;
+		background-position: 88.88888888888889% 72.72727272727273%;
 	}
 
 
 	.icon--contact-icons--envelope {
 		width: 42px;
 		height: 42px;
-		background-position: 15.686274509803921% 94.5%;
+		background-position: 51.012145748987855% 100%;
 	}
 
 
 	.icon--contact-icons--facebook-logo-button {
 		width: 25px;
 		height: 25px;
-		background-position: 36.705882352941174% 90.64748201438849%;
+		background-position: 100% 0;
 	}
 
 
 	.icon--contact-icons--github-logo {
 		width: 25px;
 		height: 25px;
-		background-position: 30.823529411764707% 90.64748201438849%;
+		background-position: 82.57575757575758% 92.09302325581395%;
 	}
 
 
 	.icon--contact-icons--linkedin-button {
 		width: 25px;
 		height: 25px;
-		background-position: 24.941176470588236% 90.64748201438849%;
+		background-position: 73.10606060606061% 92.09302325581395%;
 	}
 
 
 	.icon--contact-icons--smartphone-call {
 		width: 42px;
 		height: 42px;
-		background-position: 61.27450980392157% 49.5%;
+		background-position: 34.008097165991906% 100%;
 	}
 
 
 	.icon--contact-icons--social-buttons-skype {
 		width: 42px;
 		height: 42px;
-		background-position: 78.92156862745098% 64%;
+		background-position: 17.004048582995953% 100%;
 	}
 
 
 	.icon--design-tools {
 		width: 64px;
 		height: 64px;
-		background-position: 66.32124352331606% 66.13756613756614%;
+		background-position: 56.888888888888886% 76.13636363636364%;
 	}
 
 
 	.icon--flag {
 		width: 42px;
 		height: 42px;
-		background-position: 94.6078431372549% 80%;
+		background-position: 0 100%;
 	}
 
 
 	.icon--magnifying-glass {
 		width: 25px;
 		height: 25px;
-		background-position: 68.70588235294117% 47.48201438848921%;
+		background-position: 63.63636363636363% 92.09302325581395%;
 	}
 
 
 	.icon--nikola-logo {
 		width: 72px;
 		height: 70px;
-		background-position: 66.13756613756614% 0;
+		background-position: 0 0;
 	}
 
 
 	.icon--paint-brush {
 		width: 64px;
 		height: 64px;
-		background-position: 83.41968911917098% 50.79365079365079%;
+		background-position: 88.88888888888889% 36.36363636363637%;
 	}
 
 
 	.icon--pc-settings {
 		width: 64px;
 		height: 64px;
-		background-position: 0 83.06878306878306%;
+		background-position: 88.88888888888889% 0;
 	}
 
 
 	.icon--responsive-design-symbol {
 		width: 64px;
 		height: 64px;
-		background-position: 16.580310880829014% 83.06878306878306%;
+		background-position: 28.444444444444443% 76.13636363636364%;
 	}
 
 
 	.icon--skills {
 		width: 64px;
 		height: 64px;
-		background-position: 33.16062176165803% 83.06878306878306%;
-	}
-
-
-	.icon--tech-logos--bootstrap-4 {
-		width: 250px;
-		height: 250px;
-		background-position: 0 0;
-	}
-
-
-	.icon--tech-logos--css-3 {
-		width: 64px;
-		height: 64px;
-		background-position: 64.76683937823834% 18.51851851851852%;
-	}
-
-
-	.icon--tech-logos--express-109 {
-		width: 64px;
-		height: 64px;
-		background-position: 82.90155440414507% 83.06878306878306%;
-	}
-
-
-	.icon--tech-logos--git {
-		width: 64px;
-		height: 64px;
-		background-position: 100% 0;
-	}
-
-
-	.icon--tech-logos--gulp {
-		width: 64px;
-		height: 64px;
-		background-position: 100% 16.93121693121693%;
-	}
-
-
-	.icon--tech-logos--html5 {
-		width: 64px;
-		height: 64px;
-		background-position: 100% 33.86243386243386%;
-	}
-
-
-	.icon--tech-logos--javascript {
-		width: 64px;
-		height: 64px;
-		background-position: 100% 50.79365079365079%;
-	}
-
-
-	.icon--tech-logos--jquery-1 {
-		width: 64px;
-		height: 64px;
-		background-position: 100% 67.72486772486772%;
-	}
-
-
-	.icon--tech-logos--mongodb {
-		width: 64px;
-		height: 64px;
-		background-position: 0 100%;
-	}
-
-
-	.icon--tech-logos--nodejs-icon {
-		width: 64px;
-		height: 64px;
-		background-position: 83.41968911917098% 16.93121693121693%;
-	}
-
-
-	.icon--tech-logos--npm {
-		width: 64px;
-		height: 64px;
-		background-position: 83.41968911917098% 0;
-	}
-
-
-	.icon--tech-logos--postcss {
-		width: 64px;
-		height: 64px;
-		background-position: 49.740932642487046% 66.13756613756614%;
-	}
-
-
-	.icon--tech-logos--webpack {
-		width: 64px;
-		height: 64px;
-		background-position: 33.16062176165803% 66.13756613756614%;
+		background-position: 0 76.13636363636364%;
 	}
 
 
 	.icon--tick-inside-circle {
 		width: 64px;
 		height: 64px;
-		background-position: 16.580310880829014% 66.13756613756614%;
+		background-position: 60.44444444444444% 36.36363636363637%;
 	}
 
 
 	.icon--tools {
 		width: 64px;
 		height: 64px;
-		background-position: 0 66.13756613756614%;
+		background-position: 60.44444444444444% 0;
 	}
 
 
 	.icon--trash-can {
 		width: 64px;
 		height: 64px;
-		background-position: 64.76683937823834% 35.44973544973545%;
+		background-position: 28.444444444444443% 39.77272727272727%;
 	}
 
 
 	.icon--two-quotes {
 		width: 64px;
 		height: 64px;
-		background-position: 49.740932642487046% 83.06878306878306%;
+		background-position: 0 39.77272727272727%;
 	}
 
 
 	.icon--two-quotes-small {
 		width: 25px;
 		height: 25px;
-		background-position: 42.588235294117645% 90.64748201438849%;
+		background-position: 100% 11.627906976744185%;
 	}
 
 
 	.icon--write {
 		width: 64px;
 		height: 64px;
-		background-position: 83.41968911917098% 33.86243386243386%;
+		background-position: 32% 0;
 	}
