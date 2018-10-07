@@ -24,9 +24,7 @@
 
 		
 		<div class="row row--gutters">
-			<div class="row__medium-4">
-				
-			</div>
+			<div class="row__medium-4"></div>
 			<div class="row__medium-4"></div>
 			<div class="row__medium-4"></div>
 		</div>
@@ -36,10 +34,10 @@
 				<div class="flipcard up">
 					<div>
 						<picture>
-							<source srcset="assets/images/cropped-coding.jpg" media="(min-width: 1040px)">
-							<source srcset="assets/images/coding-portrait-short-hi-dpi.jpg" media="(min-width: 848px)">
-							<source srcset="assets/images/coding-portrait-long-hi-dpi.jpg" media="(min-width: 768px)">
-							<img class="flipcard__image" src="assets/images/coding-landscape-hi-dpi.jpg">
+							<source data-srcset="assets/images/cropped-coding.jpg" media="(min-width: 1040px)">
+							<source data-srcset="assets/images/coding-portrait-short-hi-dpi.jpg" media="(min-width: 848px)">
+							<source data-srcset="assets/images/coding-portrait-long-hi-dpi.jpg" media="(min-width: 768px)">
+							<img class="flipcard__image lazyload" data-srcset="assets/images/coding-landscape-hi-dpi.jpg">
 						</picture>
 					</div>
 					<div>
@@ -108,10 +106,10 @@
 								<p>Because of hardware and connectivity issues, page speed is even more important for mobile users than desktop users. Beyond optimizing images, you'll want to minify code, leverage browser caching, and reduce redirects. </p>
 							</div>
 						</div>
-												<div class="mobile-ready__phone-image">
+							<div class="mobile-ready__phone-image">
 							<picture>
-							<source srcset="assets/images/phone1.png" media="(min-width: 1236px)">
-							<img src="assets/images/phone1-with-content.png" alt="Mobile with content">
+							<source class="lazyload" data-srcset="assets/images/phone1.png" media="(min-width: 1236px)">
+							<img class="lazyload" data-srcset="assets/images/phone1-with-content.png" alt="Mobile with content">
 						</picture>
 						</div>
 						
@@ -251,7 +249,7 @@
 			<div class="row__medium-4">
 				<div class="recent-work">
 					<div class="recent-work__image">
-						<img src="https://via.placeholder.com/1000x660">
+						<img class="lazyload" data-srcset="https://via.placeholder.com/1000x660">
 						<div class="recent-work__banner">
 							test
 						</div>
@@ -276,7 +274,7 @@
 			<div class="row__medium-4">
 				<div class="recent-work">
 					<div class="recent-work__image">
-						<img src="https://via.placeholder.com/1000x660">
+						<img class="lazyload" data-srcset="https://via.placeholder.com/1000x660">
 						<div class="recent-work__banner">
 							test
 						</div>
@@ -300,7 +298,7 @@
 			<div class="row__medium-4">
 				<div class="recent-work">
 					<div class="recent-work__image">
-						<img src="https://via.placeholder.com/1000x660">
+						<img class="lazyload" data-srcset="https://via.placeholder.com/1000x660">
 						<div class="recent-work__banner">
 							test
 						</div>
@@ -333,7 +331,7 @@
 			<div class="row__medium-2">
 				<div class="technologies__content">
 					<div class="technologies__image">
-						<img src="assets/images/tech-logos/html.png" alt="html">
+						<img class="lazyload" data-srcset="assets/images/tech-logos/html.png" alt="html">
 					</div>
 					<div class="technologies__desc">
 						<h2 class="">HTML</h2>
@@ -343,7 +341,7 @@
 			<div class="row__medium-2">
 				<div class="technologies__content">
 					<div class="technologies__image">
-						<img src="assets/images/tech-logos/css.png" alt="css">
+						<img class="lazyload" data-srcset="assets/images/tech-logos/css.png" alt="css">
 					</div>
 					<div class="technologies__desc">
 						<h2 class="">CSS</h2>
@@ -353,7 +351,7 @@
 			<div class="row__medium-2">
 				<div class="technologies__content">
 					<div class="technologies__image">
-						<img src="assets/images/tech-logos/javascript.png" alt="javascript">
+						<img class="lazyload" data-srcset="assets/images/tech-logos/javascript.png" alt="javascript">
 					</div>
 					<div class="technologies__desc">
 						<h2 class="">JavaScript</h2>
@@ -363,7 +361,7 @@
 			<div class="row__medium-2">
 				<div class="technologies__content">
 					<div class="technologies__image">
-						<img src="assets/images/tech-logos/jquery.png" alt="jquery">
+						<img class="lazyload" data-srcset="assets/images/tech-logos/jquery.png" alt="jquery">
 					</div>
 					<div class="technologies__desc">
 						<h2 class="">jQuery</h2>
@@ -373,7 +371,7 @@
 			<div class="row__medium-2">
 				<div class="technologies__content">
 					<div class="technologies__image">
-						<img src="assets/images/tech-logos/mongodb.png" alt="mongodb">
+						<img class="lazyload" data-srcset="assets/images/tech-logos/mongodb.png" alt="mongodb">
 					</div>
 					<div class="technologies__desc">
 						<h2 class="">MongoDB</h2>
@@ -383,7 +381,7 @@
 			<div class="row__medium-2">
 				<div class="technologies__content">
 					<div class="technologies__image">
-						<img src="assets/images/tech-logos/nodejs.png" alt="nodejs">
+						<img class="lazyload" data-srcset="assets/images/tech-logos/nodejs.png" alt="nodejs">
 					</div>
 					<div class="technologies__desc">
 						<h2 class="">NodeJS</h2>
@@ -396,14 +394,14 @@
 </div>
 
 
-<div id="quotes" class="page-section page-section--quotes">
+<div id="quotes" class="page-section page-section--quotes lazyload">
 	<div class="wrapper">
 		<h2 class="section-title"><span class="icon icon--two-quotes icons--large"></span>Quotes</h2>
 		<p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>	
 		<div class="row row--gutters">
 			<div class="row__medium-2">
 				<div class="quotes__image">
-					<img src="http://www.dberke.com/media/person_images/1178/square_Marc.jpg">
+					<img class="lazyload" data-srcset="http://www.dberke.com/media/person_images/1178/square_Marc.jpg">
 				</div>
 			</div>
 			<div class="row__medium-10">

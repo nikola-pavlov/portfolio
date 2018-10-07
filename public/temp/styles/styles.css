@@ -628,8 +628,6 @@ button:focus {
 		background-attachment: fixed;
 		position: relative;
 		color: #FFF;
-		background: url("/assets/images/vodno-skopje.jpg") bottom center no-repeat;
-		background-size: cover;
 	}
 
 .page-section--quotes ::-moz-selection {
@@ -641,6 +639,11 @@ button:focus {
     	color: #574C45;
     	background-color: #ede1db;
 	}
+
+.page-section--quotes.lazyloaded {
+			background: url("/assets/images/vodno-skopje.jpg") bottom center no-repeat;
+			background-size: cover;
+		}
 
 .page-section--bigger-t-padding {
 		padding-top: 150px;

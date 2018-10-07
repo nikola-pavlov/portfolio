@@ -31,7 +31,8 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1",
-    "waypoints": "^4.0.1"
+    "waypoints": "^4.0.1",
+    "lazysizes": "^4.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.1",
