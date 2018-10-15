@@ -3,158 +3,163 @@ Istead edit gulp/templates/sprite */
 
 
 		.icon {
-			background-image: url("/assets/images/sprites/sprite-06d5a331.svg");
+			background-image: url("/assets/images/sprites/sprite-3b6a752c.svg");
+		}
+
+		.no-svg .icon {
+			background-image: url("/assets/images/sprites/sprite-3b6a752c.png");
+
 		}
 
 	.icon--calendar-with-spring-binder-and-date-blocks {
-		width: 25px;
-		height: 25px;
-		background-position: 100% 23.25581395348837%;
+		width: 27px;
+		height: 27px;
+		background-position: 100% 24.43438914027149%;
 	}
 
 
 	.icon--checkmark-for-verification {
-		width: 64px;
-		height: 64px;
-		background-position: 88.88888888888889% 72.72727272727273%;
+		width: 66px;
+		height: 66px;
+		background-position: 88.41201716738198% 72.52747252747253%;
 	}
 
 
 	.icon--contact-icons--envelope {
-		width: 42px;
-		height: 42px;
-		background-position: 51.012145748987855% 100%;
+		width: 44px;
+		height: 44px;
+		background-position: 51.76470588235294% 100%;
 	}
 
 
 	.icon--contact-icons--facebook-logo-button {
-		width: 25px;
-		height: 25px;
+		width: 27px;
+		height: 27px;
 		background-position: 100% 0;
 	}
 
 
 	.icon--contact-icons--github-logo {
-		width: 25px;
-		height: 25px;
-		background-position: 82.57575757575758% 92.09302325581395%;
+		width: 27px;
+		height: 27px;
+		background-position: 84.55882352941177% 92.3076923076923%;
 	}
 
 
 	.icon--contact-icons--linkedin-button {
-		width: 25px;
-		height: 25px;
-		background-position: 73.10606060606061% 92.09302325581395%;
+		width: 27px;
+		height: 27px;
+		background-position: 74.63235294117646% 92.3076923076923%;
 	}
 
 
 	.icon--contact-icons--smartphone-call {
-		width: 42px;
-		height: 42px;
-		background-position: 34.008097165991906% 100%;
+		width: 44px;
+		height: 44px;
+		background-position: 34.509803921568626% 100%;
 	}
 
 
 	.icon--contact-icons--social-buttons-skype {
-		width: 42px;
-		height: 42px;
-		background-position: 17.004048582995953% 100%;
+		width: 44px;
+		height: 44px;
+		background-position: 17.254901960784313% 100%;
 	}
 
 
 	.icon--design-tools {
-		width: 64px;
-		height: 64px;
-		background-position: 56.888888888888886% 76.13636363636364%;
+		width: 66px;
+		height: 66px;
+		background-position: 56.652360515021456% 75.82417582417582%;
 	}
 
 
 	.icon--flag {
-		width: 42px;
-		height: 42px;
+		width: 44px;
+		height: 44px;
 		background-position: 0 100%;
 	}
 
 
 	.icon--magnifying-glass {
-		width: 25px;
-		height: 25px;
-		background-position: 63.63636363636363% 92.09302325581395%;
+		width: 27px;
+		height: 27px;
+		background-position: 64.70588235294117% 92.3076923076923%;
 	}
 
 
 	.icon--nikola-logo {
-		width: 72px;
-		height: 70px;
+		width: 74px;
+		height: 72px;
 		background-position: 0 0;
 	}
 
 
 	.icon--paint-brush {
-		width: 64px;
-		height: 64px;
-		background-position: 88.88888888888889% 36.36363636363637%;
+		width: 66px;
+		height: 66px;
+		background-position: 88.41201716738198% 36.26373626373626%;
 	}
 
 
 	.icon--pc-settings {
-		width: 64px;
-		height: 64px;
-		background-position: 88.88888888888889% 0;
+		width: 66px;
+		height: 66px;
+		background-position: 88.41201716738198% 0;
 	}
 
 
 	.icon--responsive-design-symbol {
-		width: 64px;
-		height: 64px;
-		background-position: 28.444444444444443% 76.13636363636364%;
+		width: 66px;
+		height: 66px;
+		background-position: 28.326180257510728% 75.82417582417582%;
 	}
 
 
 	.icon--skills {
-		width: 64px;
-		height: 64px;
-		background-position: 0 76.13636363636364%;
+		width: 66px;
+		height: 66px;
+		background-position: 0 75.82417582417582%;
 	}
 
 
 	.icon--tick-inside-circle {
-		width: 64px;
-		height: 64px;
-		background-position: 60.44444444444444% 36.36363636363637%;
+		width: 66px;
+		height: 66px;
+		background-position: 60.08583690987125% 36.26373626373626%;
 	}
 
 
 	.icon--tools {
-		width: 64px;
-		height: 64px;
-		background-position: 60.44444444444444% 0;
+		width: 66px;
+		height: 66px;
+		background-position: 60.08583690987125% 0;
 	}
 
 
 	.icon--trash-can {
-		width: 64px;
-		height: 64px;
-		background-position: 28.444444444444443% 39.77272727272727%;
+		width: 66px;
+		height: 66px;
+		background-position: 28.326180257510728% 39.56043956043956%;
 	}
 
 
 	.icon--two-quotes {
-		width: 64px;
-		height: 64px;
-		background-position: 0 39.77272727272727%;
+		width: 66px;
+		height: 66px;
+		background-position: 0 39.56043956043956%;
 	}
 
 
 	.icon--two-quotes-small {
-		width: 25px;
-		height: 25px;
-		background-position: 100% 11.627906976744185%;
+		width: 27px;
+		height: 27px;
+		background-position: 100% 12.217194570135746%;
 	}
 
 
 	.icon--write {
-		width: 64px;
-		height: 64px;
-		background-position: 32% 0;
+		width: 66px;
+		height: 66px;
+		background-position: 31.759656652360515% 0;
 	}
